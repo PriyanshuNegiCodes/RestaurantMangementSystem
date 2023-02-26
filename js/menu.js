@@ -28,13 +28,14 @@ category.addEventListener('change', function (e) {
         case "Starters":{
             getPromise.then((response)=>{
                 filterItem = response.data.filter(menu => menu.category === "Starters");
+                  findItems();
             })
             break;
         }
         case "Main Course":{
             getPromise.then((response)=>{
                 filterItem = response.data.filter(menu => menu.category === "Main Course");
-
+                  findItems();    
             })
 
         }
@@ -42,7 +43,7 @@ category.addEventListener('change', function (e) {
         case "Beverages":{
             getPromise.then((response)=>{
                 filterItem = response.data.filter(menu => menu.category === "Beverages");
-
+                  findItems();
             })
 
         }
@@ -50,7 +51,7 @@ category.addEventListener('change', function (e) {
         case "Desserts":{
             getPromise.then((response)=>{
                 filterItem = response.data.filter(menu => menu.category === "Desserts");
-
+                  findItems();    
               })
         }
         break;
@@ -58,12 +59,12 @@ category.addEventListener('change', function (e) {
         default:{
             getPromise.then((response)=>{
                 filterItem = response.data.filter(menu => menu.category === "All");
-
+                  findItems();
             })
         }
         // Add more cases for other categories if needed
     }
-    findItems();
+  
 });
 
 function findItems() {
