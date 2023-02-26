@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Details</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/menu.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">View Menu</a>
+        <a href="customer.html">Customer Registration</a>
+        <a href="order.html">Place an Order</a>
+    </div>
+    
+    <!-- Write drop down list code here  -->
+    <div class="container d-flex mx-0" >
+        <div style="margin-right: 8px;">
+            Filter By Category  
+        </div>
+        <div>
+            <select name="category" id="category" >
+                <option value="Starters">All</option>
+                <option value="Starters">Starter</option>
+                <option value="Main Course">Main Course</option>
+                <option value="Beverages">Beverage</option>
+                <option value="Desserts">Dessert</option>
+            </select>
+        </div>
+    </div>  
+    <div class="table-responsive menuBox">
+        <table class="table table-sm container item-table">
+          <thead>
+            <tr>
+              <th class="col-sm-3">Item Name</th>
+              <th class="col-sm-2">Price</th>
+            </tr>
+          </thead>
+          <!-- Items will be inserted here from JScript -->
+        </table>
+      </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>

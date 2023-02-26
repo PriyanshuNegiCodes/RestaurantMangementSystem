@@ -1,0 +1,10 @@
+.menuBox {
+    border: 2px solid black;
+    margin-top: 3%;
+    margin-left: 58%;
+    margin-right: 7%;
+}
+
+select{
+    background-color: rgb(85, 85, 184);
+}

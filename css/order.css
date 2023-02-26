@@ -1,0 +1,75 @@
+.navcon{
+    color: cyan;
+}
+.formcontainer{
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid navy;
+    width: 55vw;
+    box-shadow: 0px 2px 7px orange;
+}
+.form-control{
+    border-color: transparent;
+}
+form hr{
+    width: 50vw;
+    margin-top: 0px;
+    border-bottom: 2px solid rgb(126, 122, 122);
+    margin-bottom: -14px;
+}
+form input{
+    margin-top: -9px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 10px;
+}
+.inputBar{
+    width: 50vw;
+}
+
+form label{
+    margin-bottom: 0px;
+}
+.add {
+
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 20px;
+    height: 25px;
+    margin-left: 6px;
+}
+.add p{
+    margin-top: -2px;
+}
+.display {
+    margin-left: 12px;
+    display: inline-block;
+    width: 81px;
+    height: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+
+}
+  
+  .display input {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: none;
+    background-color: aquamarine;
+    border-bottom: 2px solid black;
+}
+
+.row input{
+    margin-top: 3px;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,111 @@
+{
+  "order": [
+    {
+      "OrderID": "1",
+      "CustomerName": "Priyanshu Negi +91",
+      "ContactNo": "9891967027",
+      "CustomerEmail": "negi.priyanshu33@gmail.com",
+      "Date": "2023-02-27",
+      "Address": "Ground floor A-29 Dayal Bagh , Faridabad",
+      "OrderSummary": {
+        "CategoryName": "Desserts",
+        "ItemName": "Brownie",
+        "Price": "2.52",
+        "Quantity": "4",
+        "Amount": "10.08"
+      },
+      "FinalAmount": "15.24",
+      "id": 1
+    },
+    {
+      "OrderID": "3",
+      "CustomerName": "Priyanshu Negi",
+      "ContactNo": "9891967027",
+      "CustomerEmail": "negi.priyanshu33@gmail.com",
+      "Date": "2023-02-28",
+      "Address": "Ground floor A-29 Dayal Bagh , Faridabad",
+      "OrderSummary": [
+        {
+          "CategoryName": "Beverages",
+          "ItemName": "Berry Blast",
+          "Price": "1.72",
+          "Quantity": "2",
+          "Amount": "3.44"
+        },
+        {
+          "CategoryName": "Desserts",
+          "ItemName": "Brownie",
+          "Price": "2.52",
+          "Quantity": "3",
+          "Amount": "7.5600000000000005"
+        }
+      ],
+      "FinalAmount": "11",
+      "id": 2
+    },
+    {
+      "CustomerName": "Yunus",
+      "ContactNo": "9999999999",
+      "CustomerEmail": "Yunus@1gmail.com",
+      "Date": "2023-02-28",
+      "Address": "Telangana",
+      "OrderSummary": [
+        {
+          "CategoryName": "Beverages",
+          "ItemName": "Berry Blast",
+          "Price": "1.72",
+          "Quantity": "2",
+          "Amount": "3.44"
+        },
+        {
+          "CategoryName": "Desserts",
+          "ItemName": "Chocolate Cheesecake",
+          "Price": "7.95",
+          "Quantity": "2",
+          "Amount": "15.9"
+        }
+      ],
+      "FinalAmount": "19.34",
+      "id": 3
+    },
+    {
+      "CustomerName": "Tofique",
+      "ContactNo": "9891962345",
+      "CustomerEmail": "Tofique@gmail.com",
+      "Date": "2023-02-28",
+      "Address": "Jharkhand Se hai ",
+      "OrderSummary": [
+        {
+          "CategoryName": "Beverages",
+          "ItemName": "Berry Blast",
+          "Price": "1.72",
+          "Quantity": "2",
+          "Amount": "3.44"
+        },
+        {
+          "CategoryName": "Main Course",
+          "ItemName": "Fruit Pizza",
+          "Price": "5",
+          "Quantity": "2",
+          "Amount": "10"
+        },
+        {
+          "CategoryName": "Main Course",
+          "ItemName": "Fruit Pizza",
+          "Price": "5",
+          "Quantity": "3",
+          "Amount": "15"
+        },
+        {
+          "CategoryName": "Desserts",
+          "ItemName": "Chocolate Cheesecake",
+          "Price": "7.95",
+          "Quantity": "3",
+          "Amount": "23.85"
+        }
+      ],
+      "FinalAmount": "52.29",
+      "id": 4
+    }
+  ]
+}

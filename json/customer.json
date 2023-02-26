@@ -1,0 +1,58 @@
+{
+  "customers": [
+    {
+      "name": "Priyanshu",
+      "custPasword": "Priyanshu@123",
+      "custConfirmPassword": "priyanshu@123",
+      "email": "negi.priyanshu33@gmail.com",
+      "contact": "9891967027",
+      "address": "Ground floor A-29 Dayal Bagh , Faridabad",
+      "id": 1
+    },
+    {
+      "name": "Sanjay CHAUDHARY",
+      "custPasword": "Sanj",
+      "custConfirmPassword": "Sanj",
+      "email": "JASVEERSINGH1977@GMAIL.COM",
+      "contact": "9811943779",
+      "address": "Ground floor A-29 Dayal Bagh , Faridabad Haryana",
+      "id": 2
+    },
+    {
+      "name": "Nikhl",
+      "custPasword": "nikhil",
+      "custConfirmPassword": "nikhil",
+      "email": "nikhil@123",
+      "contact": "9899999999",
+      "address": "ghaziabad ",
+      "id": 3
+    },
+    {
+      "name": "Yunus",
+      "custPasword": "Yunus@123",
+      "custConfirmPassword": "Yunus@123",
+      "email": "Yunus@1gmail.com",
+      "contact": "9999999999",
+      "address": "Telangana",
+      "id": 4
+    },
+    {
+      "name": "Sameer",
+      "custPasword": "Sameer@123",
+      "custConfirmPassword": "Sameer@123",
+      "email": "Sameer@gmail.com",
+      "contact": "7523451233",
+      "address": "Noida Se hai ",
+      "id": 5
+    },
+    {
+      "name": "Tofique",
+      "custPasword": "Tofique@Code",
+      "custConfirmPassword": "Tofique@Code",
+      "email": "Tofique@gmail.com",
+      "contact": "9891962345",
+      "address": "Jharkhand Se hai ",
+      "id": 6
+    }
+  ]
+}
